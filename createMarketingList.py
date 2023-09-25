@@ -41,10 +41,11 @@ new_dict = {}
 
 # iterate through the csv object
 for row in vendorlist:
+    name = row[1], row[2]
 
 
     # add the key-value pair to the dictionary
-    new_dict = row
+    new_dict = name
 
 
 
